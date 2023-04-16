@@ -1,0 +1,298 @@
+<html>
+<head>
+<title>SKIN DISEASE</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+        html{
+    scroll-behavior: smooth;
+    font-size: 10px;
+}
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+#header{
+    font-size: 2rem;
+    font-family:'poppins' , cursive;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+padding: 3rem 10rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 10000;
+color: white;
+}
+#header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header ul li{
+    list-style: none;
+    margin-left: 2rem;
+}
+#header ul li a {
+    font-size: 2rem;
+text-decoration: none;
+padding: 0.6rem 1.5rem;
+color: #000000;
+border-radius: 2rem;
+}
+#header ul li a:hover ,
+#header ul li a.active
+{
+    background: #094b65;
+    color: #fff;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #668d6d;;
+}
+section #intro{
+    width: 100%;
+    height: 100vh;
+ background-image: url("https://img.freepik.com/free-photo/green-wall-mockup-with-green-plant-shelf3d-rendering_41470-4114.jpg?w=1380&t=st=1665421657~exp=1665422257~hmac=4aaa0380b44d651c00a7cd8cfe2027b88c954932d3d18b39bf726a4ea51d2582");
+background-size:cover;
+}
+section #intro #text{
+    color:white;
+position:absolute;
+top:50%;
+right:8%;
+transform:translateY(-50%);
+z-index:2;
+font-family:'Alkalami' ,  cursive;
+font-size: 8rem;
+    letter-spacing: 0.02rem;
+    font-weight: 200;
+  text-align: right;
+}
+section #intro #text span {
+    
+    font-size: 8rem;
+    letter-spacing: 0.02rem;
+    font-weight: 200;
+    text-align: right;
+    font-family: 'Alkalami' ,  cursive;
+}
+.sec{
+    position: relative;
+    padding: 10rem;
+    background: #142a33;
+
+}
+.sec h2{
+    font-size: 3.5em;
+    color: #f2f6f8;
+    margin-bottom: 1rem;
+}
+.sec p{
+    font-size: 1em;
+    color: #fff;
+
+}
+section #sec2{
+    position:absolute;
+    margin: -10rem;
+    padding: 0;
+    max-width: 150rem;
+    top: 50%;
+    font-size: 3rem;
+    text-align: left;
+    line-height: 1.5em;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+section #sec3{
+width:50rem;
+margin:6rem auto;
+color:#fff;
+padding:2rem;
+box-shadow:0 1.4rem 2.8rem rgba(0,0,0,0.25),0 1rem 1rem rgba(0,0,0,0.22);
+font-size:3rem;
+align-items:center;
+list-style:none;
+}
+section #sec3 li{
+margin:2rem 0 ;
+padding:1rem;
+}
+.bar{
+background:black;
+display:block;
+height:2rem;
+border:0.1rem solid rgba(0, 0, 0, 0.3);
+border-radius:1rem;
+overflow:hidden;
+box-shadow:0 0.1rem 0.3rem rgba(0,0,0,0.12),0 0.1rem 1rem rgba(0,0,0,0.24);
+transition: all 0.3s cubic-bezier(0.25,0.8,0.25,1);
+}
+.bar:hover{
+box-shadow:0 1.4rem 2.8rem rgba(0,0,0,0.25),0 1rem 1rem rgba(0,0,0,0.22);
+}
+.bar span{
+height:2rem;
+float:left;
+background:linear-gradient(135deg, rgba(236,0,140,1)0%,rgba(252,103,103,1,0)100%);
+}
+.communication{
+width:50%;
+animation:communication 3s;
+}
+.html{
+width:50%;
+color:red;
+animation:html 3s;
+}
+.CSS{
+width:50%;
+animation:CSS 3s;
+}
+.C{
+width:50%;
+animation:C 3s;
+}
+.java{
+width:50%;
+animation:java 3s;
+}
+@keyframes communication{
+0%{
+width:0%;
+}
+100%{
+width:50%
+}
+}
+@keyframes html{
+0%{
+width:0%;
+}
+100%{
+width:50%
+}
+}
+@keyframes CSS{
+0%{
+width:0%;
+}
+100%{
+width:50%
+}
+}
+@keyframes C{
+0%{
+width:0%;
+}
+100%{
+width:50%
+}
+}
+@keyframes java{
+0%{
+width:0%;
+}
+100%{
+width:50%
+}
+}
+section #sec4{
+    position:absolute;
+bottom:20%;
+   padding: 0;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1.5em;
+
+   
+}
+
+</style>
+</head>
+<body>
+
+ <header id="header">
+        <a href="#" class="logo"></a>     </a>
+        <ul>
+            <a href="#sec" class="active"></a>
+            <li><a href="#sec1">Home</a></li>
+            <li><a href="#sec2">About Us</a></li>
+            <li><a href="#sec3">Demo</a></li>
+            <li><a href="#sec4">Contact us</a></li>
+        </ul>
+       </header> 
+<section>
+    <div id="intro">
+        <h2 id="text"><span>welcome to SKINOPEDIA</span><br>I'm your guide</h2>
+        </div>
+</section>
+<section>
+<div id="sec2">
+     <b><h2><p style="color:red;">About the site</p></h2></b>
+        <h3><p>Hello..This is your personal guide for skin issues!
+         </p></h3>
+        <h5> <p>
+            Skin problems are a common issue that affects people of all ages and genders. They can range from minor irritations to more serious conditions that can affect a person's physical and emotional well-being. Skin problems can be caused by a variety of factors, including genetics, environmental factors, lifestyle choices, and underlying health conditions. Some common skin problems include acne, eczema, psoriasis, rosacea, and skin cancer. These conditions can cause discomfort, pain, and embarrassment, and can also impact a person's self-esteem and confidence. Treatment for skin problems varies depending on the condition and its severity, but often includes medication, lifestyle changes, and skincare routines tailored to the individual's needs. Seeking the advice of a dermatologist or healthcare professional is recommended for those experiencing skin problems to properly diagnose and treat the issue. With proper care and treatment, many skin problems can be managed and even resolved, allowing individuals to lead healthier, more comfortable lives.
+         </p>
+         <p>
+             I hope you have got pretty good idea about us..so you may scroll down for more
+         </p></h5>
+        </div></section>
+ <section>
+        <div id="sec3">
+         <b><h2><p style="color:red;">Demo</p></h2></b>
+<p>Click on the image.!</p>
+<a href="https://en.wikipedia.org/wiki/Acne"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Acne_vulgaris_on_a_very_oily_skin.jpg/450px-Acne_vulgaris_on_a_very_oily_skin.jpg">Acne</a><br>
+
+
+<a href="https://en.wikipedia.org/wiki/Dermatitis"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Dermatitis2015.jpg/450px-Dermatitis2015.jpg">Dermatitis</a><br>
+
+
+<a href="https://en.wikipedia.org/wiki/Psoriasis"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Psoriasis_on_back1.jpg">Psoriasis</a><br>
+
+
+<a href="https://en.wikipedia.org/wiki/Rosacea"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Rosacea.jpg/450px-Rosacea.jpg">
+Rosacea</a><br>
+
+
+<a href="https://en.wikipedia.org/wiki/Pemphigus"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Permphigus.jpg/450px-Permphigus.jpg">Pemphigus</a><br>
+
+
+<a href=https://en.wikipedia.org/wiki/Atopic_dermatitis""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Atopy2010.JPG/450px-Atopy2010.JPG">Atopic Dermatitis</a><br>
+
+
+<a href="https://en.wikipedia.org/wiki/Ichthyosis"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Ichthyosis_%281%29.jpg/450px-Ichthyosis_%281%29.jpg">Ichthyosis</a><br>
+
+
+<a href="https://en.wikipedia.org/wiki/Vitiligo"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Vitiligo2.JPG/450px-Vitiligo2.JPG">Vitiligo</a><br>
+
+
+<a href="https://en.wikipedia.org/wiki/Melasma"><img src="https://upload.wikimedia.org/wikipedia/commons/2/27/Melasmablemish.jpg">Melasma</a>
+</div>
+ </section>
+<section>
+        <div id="sec4">
+      <h2><p style="color:red;">Contact</p></h2>
+   <pre>phone:4763920457
+E-mail:skinopedia@gmail.com
+</pre>
+</div>
+     </section>
+</body>
+</html>
